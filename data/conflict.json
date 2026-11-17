@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://source-004.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-004.example.test/records/license-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 183,
+        "sha256": "72f22875d0ed482621b73ea30daa276d6d51b40efdf847d9b279dd79586eb06c"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-004.example.test/records/license-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 183,
+        "sha256": "1495db291885559b3e8ec9e0637dd187453110285dca7bd34f2db673cce9f900"
+      }
+    }
+  ]
+}
