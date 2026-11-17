@@ -2,10 +2,13 @@
   "kind": "sample",
   "id": "sample-B",
   "revision": "v1",
-  "phase": "一期",
-  "jurisdiction": "乙地",
-  "references": [
-    "license-A"
+  "facility": "F-1",
+  "site": "取样点A",
+  "pages": [
+    1,
+    2
   ],
-  "verified": false
+  "received_pages": [
+    1
+  ]
 }

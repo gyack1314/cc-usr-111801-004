@@ -2,10 +2,9 @@
   "kind": "license",
   "id": "license-A",
   "revision": "v1",
-  "phase": "一期",
-  "jurisdiction": "丙地",
-  "references": [
-    "sample-B"
-  ],
-  "attachment": "source-2.bin"
+  "facility": "F-1",
+  "site": "取样点A",
+  "effective": "2026-11-01",
+  "attachment": "license-A",
+  "source_revision": "conflicting-copy"
 }
